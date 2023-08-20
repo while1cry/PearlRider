@@ -1,0 +1,22 @@
+load: STARTUP
+
+name: PearlRider
+main: net.kamiland.pearlrider.PearlRider
+version: '${project.version}'
+api-version: '1.13'
+description: 'A plugin that lets you ride on pearls.'
+
+authors: [DJqingyi, while1cry]
+
+commands:
+  pearlrider:
+    aliases: [pr]
+    description: 'A command to toggle Pearl riding state'
+
+permissions:
+  pearlrider.use:
+    default: true
+    description: 'This permission allows you to ride on pearls.'
+  pearlrider.reload:
+    default: op
+    description: 'This permission allows you to reload the plugin.'

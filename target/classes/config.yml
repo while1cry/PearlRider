@@ -1,0 +1,11 @@
+#拥有权限的玩家是否默认开启珍珠骑乘模式
+enabled-by-default: true
+#投掷珍珠后是否消耗物品
+consumable: true
+#是否开启防止卡墙
+anti-trapped: true
+#启用的维度
+world-list:
+  - world
+  - world_nether
+  - world_the_end
